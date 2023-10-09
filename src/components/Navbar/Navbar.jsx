@@ -37,17 +37,20 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
+                
+                
                 {
                     user?.email ?
+                  
                     <><label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
-                                {/* <img src="https://i.ibb.co/QMpzQ8g/44786385-346679162572135-7298686858102308864-n-1.jpg" /> */}
+                                
                                 <img src={user.photoURL} alt={user.displayName} />
 
                             </div>
-                            <p>{user.displayName}</p>
-                            {/* <p>Banjir Sultana</p> */}
-                            {/* <button className='btn btn-sm btn-ghost'>Banjir Sultana</button> */}
+                        
+                           
+                            <button className='btn btn-sm btn-ghost'>{user.displayName}</button>
                         </label><button onClick={handlesignout} className='btn'>Sign Out</button></> :
                         <Link to='/Login'><button className='btn'>Login</button></Link>
                 }
