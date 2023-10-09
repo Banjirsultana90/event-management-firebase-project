@@ -13,6 +13,7 @@ const Navbar = () => {
     const nav = <>
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to='/Events'>Events</NavLink></li>
+        <li><NavLink to='/Support'>Support</NavLink></li>
         <li><NavLink to="/About">About</NavLink></li>
         <li><NavLink to="/Login">Login</NavLink></li>
 
@@ -43,15 +44,14 @@ const Navbar = () => {
                     user?.email ?
                   
                     <><label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                            <div className="w-10 rounded-full">
+                            <div className="w-10 rounded-full ">
                                 
                                 <img src={user.photoURL} alt={user.displayName} />
 
                             </div>
-                        
-                           
                             <button className='btn btn-sm btn-ghost'>{user.displayName}</button>
-                        </label><button onClick={handlesignout} className='btn'>Sign Out</button></> :
+                        </label>
+                        <button onClick={handlesignout} className='btn'>Sign Out</button></> :
                         <Link to='/Login'><button className='btn'>Login</button></Link>
                 }
 

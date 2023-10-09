@@ -17,6 +17,7 @@ import Servicedetails from './pages/Servicedetails.jsx';
 import Register from './pages/Register.jsx';
 import AuthProvider from './components/context/AuthProvider.jsx';
 import Privateroute from './components/route/Privateroute.jsx';
+import Support from './pages/Support.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,7 +37,12 @@ const router = createBrowserRouter([
       },
       {
         path: '/Events',
-        element: <Events></Events>
+        element: <Privateroute><Events></Events></Privateroute>
+      },
+
+      { path:'/Support',
+      element:<Privateroute><Support></Support></Privateroute>
+
       },
 
       {

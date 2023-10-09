@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Privateroute = () => {
+const Support = () => {
     return (
         <div>
-            
+            our 
         </div>
     );
 };
 
-export default Privateroute;
+export default Support;
