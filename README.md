@@ -1,8 +1,13 @@
-# React + Vite
+Add at least five bullet points mentioning different features and functionalities of your website.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+***Event Categories: my website a select from various event categories such as weddings, corporate events, birthdays, anniversaries, baby showers, and more.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+***User Registration: Provide the option for users to create accounts and profiles, enabling them to save their event preferences, track 
+
+
+***Event Planning Tools: Offer a set of event planning tools, such as budget calculators, guest list managers, seating arrangement generators, and to-do lists, to assist users in organizing their events efficiently.
+
+***Mobile Responsiveness: Our website is mobile-friendly, allowing users to access and manage their events from smartphones and tablets.
+
+***Social Media Integration:  for increasing the visibility of our website we enable users to share their event details and experiences on social media platforms. 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Support = () => {
     return ( 
-        <><h3 className='text-center text-3xl font-bold'> Our Supports </h3>
+        <><h3 className='text-center text-3xl font-bold'> Our Programmes </h3>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-10 px-5'>
             <div className="card w-96  bg-red-100 shadow-xl ">
                 <div className="card-body">

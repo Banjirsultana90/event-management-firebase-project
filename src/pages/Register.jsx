@@ -1,7 +1,4 @@
 
-     
-
-
 import React, { useContext, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../components/context/AuthProvider';
@@ -20,13 +17,11 @@ const Register = () => {
         const email = form.get('email');
         const password = form.get('password');
 
-        // Validate the password
         if (!/^(?=.*[a-z])(?!.*[A-Z])(?!.*[!@#$%^&*()_+{}\[\]:;<>,.?~\\/]).{6,}$/.test(password)) {
             toast.error('Password should be at least 6 characters, no uppercase letters, and no special characters.');
             return;
         }
 
-        // Create user
         createuser(email, password, name)
             .then((result) => {
                 handleupdateprofile(name,photo)

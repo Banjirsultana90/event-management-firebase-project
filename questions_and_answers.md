@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>it will console log an empty object which is declared as a global variable.But here there is a type error</i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer:B
 
-<i>Write your explanation here</i>
+<i>here variable types is not specified.here one variable  is integer and another variable is string type.while adding the number with string js treated number as a string and due to concatenation the output is become "12"</i>
 
 </p>
 </details>
@@ -69,9 +69,15 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>In the code, the info object initially has a property favoriteFood that is assigned the value of food[0]. Later, the info.favoriteFood property is updated . However, this update only affects the info object and doesn't modify the food array. So, when you log the food array, it remains unchanged and still contains the original elements.
+
+
+
+
+
+</i>
 
 </p>
 </details>
@@ -94,9 +100,15 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i> The sayHi function wants a name parameter to be passed when it is called. However, when we call sayHi() without providing any argument, the name parameter inside the function becomes undefined. Therefore, the function returns "Hi there, undefined" when logged.
+
+
+
+
+
+</i>
 
 </p>
 </details>
@@ -122,9 +134,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>The forEach loop iterates over each element in the nums array, and for each element, it checks if the element (num) is truthy (i.e., not equal to zero). If num is truthy, it increments the count variable by 1.</i>
 
 </p>
 </details>

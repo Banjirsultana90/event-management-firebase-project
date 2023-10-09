@@ -5,10 +5,10 @@ const Servicedetails = () => {
   const services=useLoaderData()
 
    const {id}= useParams()
-  //  const idint=parseInt(id)
+ 
    const service=services.find(service=>service.id===id)
 
-  //  console.log(service);
+ 
 
     return (
         <div className="hero min-h-screen bg-base-200">
