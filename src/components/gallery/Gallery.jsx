@@ -3,15 +3,15 @@ import React from 'react';
 const Gallery = () => {
     return (
         <div className=' max-w-screen-xl mx-auto px-8 md:px-16 lg:px-48 py-5 my-5' >
-            Our gallery
+            <h3 className='text-center text-3xl font-extrabold text-indigo-600 mb-10'>Our Gallery</h3>
 
-            <div className='grid grid-cols-2 gap-3 '>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-3 '>
                 <div className=' '>
                     <img className='h-80 rounded-3xl  w-full' src="/src/assets/pexels-deepak-khirodwala-3865895.jpg" alt="Shoes" />
 
                 </div>
                 <div className=" grid gap-1">
-                    <div className='grid grid-cols-2 gap-3'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3'>
                         <div className=''>
                             <img className=' rounded-3xl ' src="/src/assets/pexels-ivan-samkov-8104206.jpg" alt="Shoes" />
                         </div>

@@ -67,8 +67,8 @@ const Welcome = () => {
     <>
       <div className='max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-5'>
         <div className='my-5'>
-          <h3 className='text-center text-3xl'>Please welcome</h3>
-          <p className='text-center'>
+          <h3 className='text-center text-3xl font-extrabold text-indigo-600 mb-5'>Welcome to Event Sajai</h3>
+          <p className='text-center mb-3'>
             From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions
             <br />
             We offer a full range of Events Management Services that scale to your needs & budget.
@@ -86,7 +86,7 @@ const Welcome = () => {
             </div>
           </div>
 
-          <div className="card bg-red-100 shadow-xl" data-aos="fade-left" data-aos-delay="600">
+          <div className="card bg-orange-300 shadow-xl" data-aos="fade-left" data-aos-delay="600">
             <div className="card-body">
               <h2 className="card-title">Great People</h2>
               <p>
@@ -97,7 +97,7 @@ const Welcome = () => {
             </div>
           </div>
 
-          <div className="card bg-red-100 shadow-xl" data-aos="fade-right" data-aos-delay="900">
+          <div className="card bg-blue-400 shadow-xl" data-aos="fade-right" data-aos-delay="900">
             <div className="card-body">
               <h2 className="card-title">Unique Ideas</h2>
               <p>
