@@ -3,11 +3,11 @@ import { Link, NavLink } from 'react-router-dom';
 import { AuthContext } from '../context/AuthProvider';
 
 const Navbar = () => {
-    const { user,logout } = useContext(AuthContext)
-    const handlesignout=()=>{
+    const { user, logout } = useContext(AuthContext)
+    const handlesignout = () => {
         logout()
-        .then()
-        .catch()
+            .then()
+            .catch()
 
     }
     const nav = <>
@@ -38,11 +38,21 @@ const Navbar = () => {
             </div>
             <div className="navbar-end">
                 {
-                    user ?
-                        <button onClick={handlesignout} className='btn'>Sign Out</button> :
-                        <Link to='/Login'><button className='btn'>Login</button></Link>
+                    user?.email ?
+                    <><label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+                            <div className="w-10 rounded-full">
+                                {/* <img src="https://i.ibb.co/QMpzQ8g/44786385-346679162572135-7298686858102308864-n-1.jpg" /> */}
+                                <img src={user.photoURL} alt={user.displayName} />
 
+                            </div>
+                            <p>{user.displayName}</p>
+                            {/* <p>Banjir Sultana</p> */}
+                            {/* <button className='btn btn-sm btn-ghost'>Banjir Sultana</button> */}
+                        </label><button onClick={handlesignout} className='btn'>Sign Out</button></> :
+                        <Link to='/Login'><button className='btn'>Login</button></Link>
                 }
+
+
 
             </div>
         </div>
