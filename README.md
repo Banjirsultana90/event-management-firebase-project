@@ -1,5 +1,13 @@
-Add at least five bullet points mentioning different features and functionalities of your website.
 
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- MongoDB
+## Features
 
 ***Event Categories: my website a select from various event categories such as weddings, corporate events, birthdays, anniversaries, baby showers, and more.
 
